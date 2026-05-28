@@ -459,7 +459,7 @@ function openLastCake() {
 </script>
   <script>
     (function(){
-      const fullText = "Happy Birthday Neo";
+      const fullText = "Happy Birthday May Say Rar";
       const target = document.getElementById('text');
       const typingDelay = 120;
       const pauseDelay = 1000; // 1 second pause before reverse
@@ -602,33 +602,33 @@ function openLastCake() {
   
 </script>
    <script>
-    const text = "🎉 Happy Birthday Neo 🎂 Click the button below! 💖";
-    const span = document.querySelector(".tw.top");
-    let index = 0;
-    let isDeleting = false;
+     const text = "🎉 Happy Birthday May Say Rar 🎂 Click the button below! 💖";
+     const span = document.querySelector(".tw.top");
+     let index = 0;
+     let isDeleting = false;
 
-    function typeEffect() {
-      if (!isDeleting && index <= text.length) {
-        span.textContent = text.slice(0, index++);
-      } else if (isDeleting && index >= 0) {
-        span.textContent = text.slice(0, index--);
-      }
+     function typeEffect() {
+       if (!isDeleting && index <= text.length) {
+         span.textContent = text.slice(0, index++);
+       } else if (isDeleting && index >= 0) {
+         span.textContent = text.slice(0, index--);
+       }
 
-      if (index === text.length + 1) {
-        isDeleting = true;
-        setTimeout(typeEffect, 1000); // wait before deleting
-        return;
-      } else if (index < 0) {
-        isDeleting = false;
-        index = 0;
-      }
+       if (index === text.length + 1) {
+         isDeleting = true;
+         setTimeout(typeEffect, 1000); // wait before deleting
+         return;
+       } else if (index < 0) {
+         isDeleting = false;
+         index = 0;
+       }
 
-      const speed = isDeleting ? 50 : 100;
-      setTimeout(typeEffect, speed);
-    }
+       const speed = isDeleting ? 50 : 100;
+       setTimeout(typeEffect, speed);
+     }
 
-    typeEffect();
-  </script>
+     typeEffect();
+   </script>
   <script src="bg.js"></script>
   </body>
 </html>
